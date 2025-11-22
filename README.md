@@ -23,6 +23,7 @@ A dynamic web app that generates unique video clips by remixing pre-existing cli
    cd video-generator-app
 
 2. Setup Backend
+
 cd backend
 npm install
 cp .env.example .env
