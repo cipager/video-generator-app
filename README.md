@@ -21,3 +21,17 @@ A dynamic web app that generates unique video clips by remixing pre-existing cli
    ```bash
    git clone https://github.com/yourusername/video-generator-app.git
    cd video-generator-app
+
+2. Setup Backend
+cd backend
+npm install
+cp .env.example .env
+# Edit .env with your database credentials
+npm run dev
+
+3.Setup Frontend
+cd ../frontend
+npm install
+cp .env.example .env
+# Edit .env with your backend URL
+npm start
